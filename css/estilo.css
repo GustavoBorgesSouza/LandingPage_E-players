@@ -255,14 +255,76 @@ footer span{
 }
 
 
-@media(width: 420px){
+@media(max-width: 420px){
+    .container{
+        width: 80vw;
+    }
+    .container_banner{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
     .fundo_banner{
         width: auto;
         height: 100%;
     }
     .box_content{
         top: 100px;
-        left: 45px;
-        width: 80vw;
+        left: 10%;
+        align-items: center;
     }
+    h1{
+        font-size: 58px;
+        width: 100%;
+        height: auto;
+    }
+    .hr_banner{
+        width: 360px;
+        margin: 30px 0;
+    }
+    .box_content span{
+        font-size: 32px;
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+    }
+    .icon_mouse{
+        width: 42px;
+        margin-top: 20px;
+    }
+
+    .container_sobre{
+        height: auto;
+    }
+    .espacamento_sobre{
+        align-items: center;
+    }
+    .h2_sobre{
+        font-size: 56px;
+        font-weight: 400;
+        margin: 50px 0;
+    }
+    .box_sobre{
+        width: 100%;
+        flex-direction: column;
+    }
+    .box_sobre img{
+        width: 80vw;
+        height: auto;
+    }
+    .box_sobre_textos{
+        margin-top: 50px;
+    }
+    .h3_sobre{
+        width: auto;
+        font-size: 38px;
+        margin: 50px 0;
+    }
+    .box_sobre_textos p{
+        width: auto;
+        text-align: justify;
+
+    }
+
+
 }
