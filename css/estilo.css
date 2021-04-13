@@ -253,3 +253,16 @@ footer span{
     font-weight: 500;
     font-size: 18px;
 }
+
+
+@media(width: 420px){
+    .fundo_banner{
+        width: auto;
+        height: 100%;
+    }
+    .box_content{
+        top: 100px;
+        left: 45px;
+        width: 80vw;
+    }
+}
