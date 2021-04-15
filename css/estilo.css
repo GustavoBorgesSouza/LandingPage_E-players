@@ -61,6 +61,7 @@ main{
 .fundo_banner{
     width: 100%;
     height: 740px;
+    object-fit: cover;
 }
 
 .box_content{
@@ -87,6 +88,7 @@ h1{
 
 .box_content span{
     font-size: 53px;
+    font-weight: bolder;
     color: #F9003D;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
